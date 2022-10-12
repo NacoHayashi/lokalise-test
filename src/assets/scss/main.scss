@@ -1,0 +1,33 @@
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+    'primary': (
+      'base': #4e61ff,
+    ),
+    'success': (
+      'base': #00d656,
+    ),
+    'warning': (
+      'base': #f3ce0c,
+    ),
+    'danger': (
+      'base': #fd5454,
+    ),
+    'error': (
+      'base': #fd5454,
+    ),
+    // 'info': (
+    //   'base': #0ee7da,
+    // ),,,
+  )
+);
+@import 'breakpoints';
+
+$aiopt: red;
+.test {
+  color: $aiopt;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
